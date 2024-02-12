@@ -7,7 +7,7 @@ pipeline {
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
                 sh 'whoami'
                 sh 'pwd'
-                sh 'ls'
+                sh 'ls -a'
             }
         }
     }
